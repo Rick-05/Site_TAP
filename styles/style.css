@@ -24,7 +24,11 @@ div.texto_principal{
 
 section.section_principal img{
     width: 100%;
-    max-height: 100%;
+    max-height: 60%;
+}
+
+div.img-principal{
+    background-image: url("../images/5f1a221e-23ca-45f3-b30d-0a64041e109d.jpg");
 }
 
 h1.h1_principal{
