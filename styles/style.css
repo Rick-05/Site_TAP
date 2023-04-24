@@ -1,6 +1,10 @@
 *{
     margin: 0;
 }
+body{
+    background: linear-gradient(180deg, #2A4AC8 0%, rgba(140, 69, 187, 0.3) 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 header#header{
     display: flex;
     flex-direction: row;
@@ -65,9 +69,13 @@ div.img-principal{
 }
 
 h1.h1_principal{
+    text-align: center;
     color: #fff;
 }
 
+h2{
+    margin-bottom: 15px;
+}
 img.img_content{
     width: 500px;
     height: 500px;
@@ -81,15 +89,85 @@ section.geral_content{
     margin: auto;
 }
 
+div.texto_content{
+    color: #fff;
+    line-height: 25px;
+    font-size: 1.1em;
+}
 main{
     width: 800px;
     margin: auto;
 }
 
-body{
-    background: linear-gradient(180deg, #2A4AC8 0%, rgba(140, 69, 187, 0.3) 100%);
-}
 
 .section02{
+
+}
+.section03{
     flex-direction: row-reverse;
+}
+
+.section05{
+    padding-top: 30px;
+}
+.img02{
+    width: 300px;
+    height: 200px;
+}
+
+div.texto_content_final{
+    display: flex;
+    color: #fff;
+    gap: 90px;
+}
+
+p.p_final{
+    margin-bottom: 20px;
+}
+
+div.aside_container{
+    position: fixed;
+}
+
+div.aside_content1, .aside_content2, .aside_content3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(180deg, rgba(42, 74, 200, 0.7) 43.48%, rgba(140, 69, 187, 0.55) 100%);
+    border-radius: 50%;
+    padding: 10px;
+}
+.aside_content1{
+    top: 10px;
+}
+.aside_content2{
+    top: 75px;
+}
+.aside_content3{
+    top: 140px;
+}
+
+.aside_hover:hover{
+    cursor: pointer;
+}
+aside.aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    box-sizing: border-box;
+    position: relative;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 100px;
+    height: 210px;
+    background: #8179D1;
+    border: 1px solid #F5F5F5;
+    border-radius: 22px;
+}
+aside.aside img{
+    width: 35px;
 }
